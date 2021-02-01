@@ -1,0 +1,119 @@
+.factoryForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.factoryInput__container{
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    margin-top: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.factoryInput__input{
+    border: 1px solid #1da1f2;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.factoryInput__arrow{
+    position: absolute;
+    right:0;
+    background-color: #1da1f2;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.factoryInput__label{
+    color : #1da1f2;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.factoryForm__attachment img{
+    width: 80px;
+    height: 80px;
+}
+
+.factoryForm__clear{
+    color : #1da1f2;
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.factoryForm__clear span{
+    margin-right: 10px;
+}
+
+.nweet{
+    position: relative;
+    background-color: white;
+    padding: 2px 15px;
+    color: black;
+    width: 100%;
+    max-width: 320px;
+    border-radius: 10px;
+    font-size: 12px;
+    position : relative;
+    margin-top:30px;
+}
+
+.nweet img {
+    position: absolute;
+    right: -10px;
+    bottom: -20px;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+}
+
+.nweet__actions{
+    position: absolute;
+    right:10px;
+    top:5px;
+    cursor: pointer;
+}
+
+.nweet__actions span {
+    margin-left: 10px;
+}
+
+.nweetEdit{
+    padding: 15px 0;
+}
+
+.formInput {
+    border : 1px solid black;
+    border-radius: 20px;
+    color:black;
+    text-align: center;
+    padding : 10px 0;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.formBtn{
+    cursor: pointer;
+    background-color :#1da1f2;
+    color : white;
+    border-radius: 20px;
+    text-align: center;
+    padding : 5px 0;
+}
+
+.cancelBtn{
+    background-color: tomato;
+}

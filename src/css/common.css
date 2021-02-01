@@ -1,0 +1,36 @@
+* { 
+    box-sizing: border-box;
+}
+
+li {
+  all : unset;
+}
+
+a {
+  all :unset;
+  color : white;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    all: unset;
+    appearance: none;
+    box-sizing: border-box;
+  }
+
+.container {
+  width: 100%;
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+}
+
+form {
+  width: 100%;
+}
