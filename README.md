@@ -1,6 +1,5 @@
-# Twitter 클론코딩
 ## 노마드 코더의 '트위터 클론 코딩' 강의 실습 내용 입니다.
-
+# Twitter 클론코딩
 React + Firebase
 
 ## 기능
